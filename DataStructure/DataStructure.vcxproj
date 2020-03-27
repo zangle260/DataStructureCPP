@@ -154,6 +154,8 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
