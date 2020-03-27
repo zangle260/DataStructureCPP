@@ -4,12 +4,21 @@
 #include "pch.h"
 #include <iostream>
 #include "Vector.h"
+#include "Common.h"
+#include "List.h"
 
 int main()
 {
-    Vector<int> v; 
+    int S[] = { 6, 3, 2, 7, 1, 5, 8, 4 };
+    Vector<int> v(S, 0, sizeof(S) / sizeof(int));
 
-    std::cout << v.size() << std::endl; 
+    print(v);
+
+    v.sort(); 
+
+    print(v);
+
+    List<int> l; 
     std::cout << "Hello World!\n"; 
 }
 
