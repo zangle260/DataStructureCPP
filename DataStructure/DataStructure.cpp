@@ -6,9 +6,12 @@
 #include "Vector.h"
 #include "Common.h"
 #include "List.h"
+#include "BinNode.h"
 
 int main()
 {
+    BinTree<int> tree; 
+
     int S[] = { 6, 3, 2, 7, 1, 5, 8, 4 };
     Vector<int> v(S, 0, sizeof(S) / sizeof(int));
 
